@@ -1,0 +1,33 @@
+.flex-container {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: center;
+font-weight: bold;
+}
+
+.flex-items {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px;
+color: #fff;
+line-height: 1.5em;
+font-size: 1.6em;
+background-color: #f16059;
+height: 300px;
+width: 80%;
+flex: 1 1 auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .flex-items {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .flex-items {
+    width: 30%;
+  }
